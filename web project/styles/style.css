@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+nav {
+  background: orange;
+  height: 80px;
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+  position: relative;
+  border: none;
+  height: 2px;
+  background: orange;
+  margin: 20px 0px 20px 0px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+iframe {
+  height: 500px;
+  width: auto;
+}
+a.active {
+  background: #1b9bff;
+  transition: 0.5s;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.article-img {
+  height: 500px;
+  width: auto;
+}
+
+.modal-overlay {
+  display: block; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.hidden {
+  display: none;
+}
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  z-index: 9999;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+.modal-text {
+  text-align: center;
+}
+.modal-exit {
+  display: inline;
+  text-align: center;
+  width: 2rem;
+  color: orange;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-exit:hover,
+.modal-exit:focus {
+  color: #1b9bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo {
+  font-weight: bolder;
+}
+
+.nav_link {
+  font-weight: bold;
+}
+
+.nav_link:hover {
+  background: white;
+  transition: 0.5s;
+}
+.contact {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  background: orange;
+}
+.submit-btn:hover {
+  background: #1b9bff;
+  transition: 0.5s;
+}
+
+.card-contact {
+  max-width: 25rem;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: orange;
+}
+
+img {
+  height: 400px;
+  width: 1px;
+}
