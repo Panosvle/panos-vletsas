@@ -1,0 +1,57 @@
+/* Get the layout correct*/
+section {
+    display: grid;
+    justify-items: center;
+    background-color: lightgrey;
+    padding-bottom: 25px;
+}
+
+/* Getting the margins on the article to align correctly...*/
+.article {
+    max-width: 560px;
+    max-height: 180px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+/* Fix image size. */
+.article img {
+    width: 320px;
+    height: 180px;
+}
+
+/* Disable the href highlithing. */
+.article a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* fix text dimentsions*/
+.article_text {
+    max-height: 180px;
+}
+
+
+/* Text wrapping is an issues - fix it */
+.article h1 {
+    flex: auto;
+    margin: 0;
+    margin-left: 5px;
+    width: 320px;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Text wrapping is an issues - fix it */
+.article p {
+    flex: auto;
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 320px;
+    text-align: left;
+    overflow-wrap: break-word;
+    overflow: clip;
+}

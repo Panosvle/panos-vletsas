@@ -1,0 +1,155 @@
+/* section CSS */
+section {
+    /* Color inversion style consistent with the header and nav bar style */
+    flex: auto;
+    background-color: lightgrey;
+    color: darkslategrey;
+    padding: 5px;
+}
+
+/* Image style for images in the section tag*/
+.section_image img {
+    flex: auto;
+    max-width: 540px;
+}
+
+/* Article image formatting */
+.section_image p {
+    /* Make this paragraph behave like an image caption */
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 540px;
+    overflow-wrap: break-word;
+}
+
+/* Article title formatting*/
+section h1 {
+    max-width: 540px;
+    overflow-wrap: break-word;
+}
+
+/* Article paragraph formatting */
+section p {
+    max-width: 540px;
+    overflow-wrap: break-word;
+}
+
+/* Numbered element formatting */
+section ol {
+    max-width: 520px;
+    overflow-wrap: break-word;
+}
+
+/* Article name CSS*/
+#article_name {
+    /* there are default margin issues so resolve them and set the text style*/
+    flex: auto;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 28px;
+    text-align: left;
+}
+
+/* Author portrait formatting CSS */
+#author_portrait {
+    /* add some margins to the image */
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 50%; /* round the image */
+    max-width: 180px; /* limit the size of the image*/
+}
+
+/* Author block CSS*/
+.author_block {
+    /* Want the text to follow right after the image on the same line*/
+    display: flex;
+    align-items: flex-start;
+
+    /* Keep style consistent */
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+    background-color: darkslategrey;
+}
+
+/* Author text margin fix*/
+.author_text {
+    margin: 0;
+    padding: 0;
+}
+
+/* Author name margin fix */
+.author_text h2{
+    margin-bottom: 0;
+}
+
+/* Author detail formatting fix*/
+.author_text p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer CSS*/
+footer {
+    flex: auto;
+    text-align: center;
+    background-color: lightgrey;
+    color: darkslategrey;
+}
+
+/* Comment section layout, margin fixing...*/
+.comment_section {
+    display: block;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    margin-top: -20px;
+    background-color: lightgrey;
+    color: darkslategrey;
+}
+
+/* Comment user_name margin fix*/
+.comment_section h2 {
+    margin-bottom: 5px;
+}
+
+/* Make the comment user name and comment text layout correctly */
+.comment {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Formatting comment user name*/
+.user_name {
+    width: 128px;
+    text-align: left;
+    padding-right: 0;
+    border-right: 1px solid black;
+    overflow: hidden;
+}
+
+/* fix user comment padding*/
+.user_comment {
+    padding-left: 10px;
+}
+
+/* add a space between the different references in the reference list*/
+.reference_list li {
+    padding-bottom: 5px;
+}
+
+/* Get rid of hyperlink highlighting in the author block*/
+.author_block a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+

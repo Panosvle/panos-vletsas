@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Page by: Charilaos Karras -->
+    <!-- Some metadata to tell the browser where to find some CSS and JS files and
+         where to -->
+    <meta charset="UTF-8">
+    <title>General News</title>
+
+    <!-- multiple stylesheets so that less code is duplicated -->
+    <link rel="stylesheet" href="../other/common.css">
+    <link rel="stylesheet" href="../other/personal.css">
+
+</head>
+<body>
+    <!-- text that shows up next to the favicon -->
+    <header>  <!-- Header element -->
+        <h1 id="website_name">General News</h1> <!-- add id to be able to identify the element later in the css -->
+    </header>
+
+    <!-- stylized list to be used as a navigation bar -->
+    <nav id="navbar">
+        <ul>  <!-- The nav bar is actually a list just made horizontally with css blocks -->
+            <!-- TODO: add links as appropriate -->
+            <li><a href="../index.html">Home</a></li>  <!-- Nav bar element and the page it leads to when clicked  -->
+            <li><a href="Karras.html">About</a></li>
+        </ul>
+    </nav>
+
+    <section class="user_details">  <!--  where the details of the user in the page go -->
+        <div>
+            <img src="../images/portrait.png">  <!-- Seperate divs for the image and text to get a side by side layout -->
+        </div>
+        <div class="details_text">  <!-- Personal page text div, class specified to it is findable in the CSS specifically -->
+            <h1>Charilaos Karras</h1>  <!-- Heading with the name of the user -->
+            <p>  <!-- Paragraph blocks so that spaces between the different sections of text could be made -->
+                A fist year student at the University of York / Athens Tech College Bsc in Computer Science.
+                High School graduate, speaks English, Italian and Greek as a native language.
+            </p>
+            <p>
+                Born and raised in Athens, lived for some years in Italy and the Netherlands.
+            </p>
+            <p>
+                Interested in Programming, Data Science, Artificial Intelligence, Cybersecurity.
+                Passionate about history, geography, geopolitics, financial news and technology.
+                Other hobbies include traveling and sports (mainly football, basketball and, as a former athlete of 100 meters world athletics)
+            </p>
+            <p>
+                A non-exhaustive list of web sites related to my interests:
+            </p>
+
+            <ul>  <!-- Just a bullet point list with links -->
+                <li><a href="https://euronews.com">Euronews</a></li>  <!-- the <a> element is necessary to make the text clickable -->
+                <li><a href="https://politico.eu">Politico</a></li>
+                <li><a href="https://economist.com">The Economist</a></li>
+                <li><a href="https://ft.com">The Financial Times</a></li>
+                <li><a href="https://corriere.it">Corriere Della Sera</a></li>
+                <li><a href="https://uefa.com">UEFA</a></li>
+                <li><a href="https://gazzetta.it">La Gazzetta dello Sport</a></li>
+                <li><a href="https://worldathletics.org">World Athletics</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer for various miscellaneous info -->
+    <footer> 
+        <hr>  <!-- Add a line to denominate the end of the webpage -->
+        By: Charilaos Karras
+    </footer>
+
+</body>
+</html>

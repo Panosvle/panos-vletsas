@@ -1,0 +1,25 @@
+/* Make a 1-2 layout grid*/
+.user_details {
+    display: flex;
+    gap: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: lightgrey;
+    color: darkslategrey;
+}
+
+/* Fix some margins on the Name of the person*/
+.user_details h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.user_details img {
+    width: 540px;
+    height: 360px;
+}
+
+.details_text {
+    width: 540px;
+    text-overflow: break-word;
+}

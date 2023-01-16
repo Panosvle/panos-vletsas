@@ -1,0 +1,82 @@
+/* header CSS */
+header {
+    /* Make header with website name that inverts the usual color scheme */
+    background-color: darkslategrey;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* navbar CSS*/
+nav {
+    /* Use flex blocks to try to make this work on mobile without much extra work */
+    flex: auto;
+}
+
+nav ul {
+    /* making the navbar scroll with you */
+    position: sticky;
+    top: 0;
+
+    /* setting the navbar boxes background color,
+       hiding the unnecessary elements */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+nav li {
+    /* Make the unordered list horizontal and create borders between elements */
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav li:last-child {
+    /* get rid of the border on the last element as that looks ugly */
+    border-right: none;
+}
+
+nav li a {
+    /* create blocks for the navbar elements and set the color and padding */
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    /* change the color of the navbar elements on hover for responsiveness */
+    background-color: #111;
+}
+
+/* Body CSS */
+body {
+    /* Use flex blocks to try to make this work on mobile without much extra work,
+       also get rid of the stupid margins that looks extremely ugly.*/
+    flex: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer CSS*/
+footer {
+    flex: auto;
+    text-align: center;
+    background-color: lightgrey;
+    color: darkslategrey;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid black;
+}
+
+img {
+    border: 1px solid black;
+}
